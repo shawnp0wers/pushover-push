@@ -1,0 +1,11 @@
+#!/bin/bash
+
+TOKEN="TOKEN_HERE"
+USER="USER_ID_HERE"
+
+curl -s \
+ -F "user=$USER" \
+ -F "token=$TOKEN" \
+ -F "title="MESSAGE FROM BASH" \
+ -F "message=$1" \
+ https://api.pushover.net/1/messages.json
