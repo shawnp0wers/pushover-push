@@ -1,7 +1,7 @@
 #!/bin/bash
 
 TOKEN="TOKEN_HERE"
-USER="USER_ID_HERE"
+USER="USER_KEY_HERE"
 
 curl -s \
  -F "user=$USER" \
